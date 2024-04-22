@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iterative Design - Handin Webpage</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Iterative Design</h1>
-        <p>By Yui Musha, Xiaoxi Yang, Lanxi Li, Shiyu Yan</p>
+      <h1>Iterative Design</h1>
+      <p>By Yui Musha, Xiaoxi Yang, Lanxi Li, Shiyu Yan</p>
     </header>
 
     <main>
-        <section id="intro">
-            <h2>Project Introduction</h2>
-            <p>In this project, we designed an interactive prototype for Allara’s website based on the problems they face on their original website. Allara is a company that provides virtual care for women’s hormonal and metabolic health. </p>
-        </section>
-
-        <section id="sketches">
-            <h2>Sketches</h2>
-            <div class="two-images-container">
-                <div class="two-images-box">
-                    <img src="assets/xiaoxi-sketch.jpg" alt="image of Yui's sketch 1">
-                    <img src="assets/xiaoxi-sketch.jpg" alt="image of Yui's sketch 2">
-                </div>
-                <p>Yui's sketches</p>
-            </div>
-            <div class="single-image-container">
-                <img src="assets/xiaoxi-sketch.jpg" alt="image of Xiaoxi's sketches">
-                <p>Xiaoxi's sketches</p>
-            </div>
-            <div class="single-image-container">
-                <img src="assets/lanxi-sketch.jpg" alt="image of Lanxi's sketch">
-                <p>Lanxi's sketches</p>
-            </div>
-            <div class="single-image-container">
-                <img src="assets/xiaoxi-sketch.jpg" alt="image of Shiyu's sketch">
-                <p>Shiyu's sketches</p>
-            </div>
-            
-        </section>
+      <section id="intro">
+        <h2>Project Introduction</h2>
+        <p>
+          In this project, we designed an interactive prototype for Allara’s
+          website based on the problems they face on their original website.
+          Allara is a company that provides virtual care for women’s hormonal
+          and metabolic health.
+        </p>
+      </section>
+      <section id="goal">
+        <h2>Prototype Goal</h2>
+        <p>
+          Based on the
+          <a
+            href="https://docs.google.com/document/d/1AGgqCQjKFn_yIY2Hy9cYK2RnHGvFB9JPzfeC64xWepc/edit?usp=sharing"
+            >project brief</a
+          >
+          provided by our client, we communicated with our client to clarify our
+          understanding of the target customers, problems faced on their
+          original website, and some ideas on the complexity of the final
+          design. The
+          <a
+            href="https://docs.google.com/document/d/1MbHZPqNgawZxE8YENLRMMEAKU2Ki8oVYVv82mLOVDuc/edit?usp=sharing"
+            >revised project brief</a
+          >
+          was created with the additional insights obtained.
+        </p>
+        <h4>Problem statement:</h4>
+        <ul>
+          <li>Patients are not sure if Allara is the right fit for them</li>
+          <li>Patients do not know who Allara is</li>
+          <li>Patients are skeptical of doctors</li>
+        </ul>
+      </section>
+      <section id="sketches">
+        <h2>Sketches</h2>
+        <div class="two-images-container">
+          <div class="two-images-box">
+            <img src="assets/xiaoxi-sketch.jpg" alt="image of Yui's sketch 1" />
+            <img src="assets/xiaoxi-sketch.jpg" alt="image of Yui's sketch 2" />
+          </div>
+          <p>Yui's sketches</p>
+        </div>
+        <div class="single-image-container">
+          <img
+            src="assets/xiaoxi-sketch.jpg"
+            alt="image of Xiaoxi's sketches"
+          />
+          <p>Xiaoxi's sketches</p>
+        </div>
+        <div class="single-image-container">
+          <img src="assets/lanxi-sketch.jpg" alt="image of Lanxi's sketch" />
+          <p>Lanxi's sketches</p>
+        </div>
+        <div class="single-image-container">
+          <img src="assets/xiaoxi-sketch.jpg" alt="image of Shiyu's sketch" />
+          <p>Shiyu's sketches</p>
+        </div>
+      </section>
 
         <section id="low-fi">
             <h2>Low-fi Wireframe</h2>
@@ -111,28 +142,98 @@
             
         </section>
 
-        <section id="updated-low-fi">
-            <h2>Update Low-fi Wireframe after Critiques</h2>
-            <p>blablabla</p>
-        </section>
+      <section id="updated-low-fi">
+        <h2>Update Low-fi Wireframe after Critiques</h2>
+        <p>Following the valuable feedback received from our instructor, client, and peers, we proceeded to update our low-fidelity wireframe for Allara Health's onboarding flow. This <a href="https://www.figma.com/file/n8RuLRnTVZAYtC7EViOqKS/Allara-Wireframe?type=design&node-id=192%3A2&mode=design&t=bo6AhIDIktOV7UTx-1">second iteration</a> incorporates several key changes based on the critiques and suggestions provided.</p>
+        <p>We implemented the following changes based on our client's feedback:</p>
+        <ul>
+            <li> Added a "continue" button on each page of the specialist, medical care, and nutrition support sections to maintain user engagement within the signup flow</li>
+            <li> Removed the referral question and the hormonal & metabolic evaluation program, as they were no longer relevant</li>
+            <li>Combined bullets 3, 4, and 5 as they all refer to 1:1 visits with providers</li>
+            <li>Removed the community offering</li>
+            <li>Adjusted the progress bar to end at the review page, making the onboarding process appear more manageable</li>
+        </ul>
+        <p>We also made the following changes based on our peers' feedback:</p>
+        <ul>
+            <li>Used the expert section from Allara's "About" page to provide descriptions on the specialist page</li>
+            <li>Added more padding to the button text to improve readability</li>
+            <li>Incorporated two guidance dots for swiping or scrolling</li>
+            <li>Featured real-world patient testimonials from Allara Health's website to showcase the program's benefits</li>
+            <li>Added a "read more" and "read less" button for the "Your insurance will be billed for" section on the covered page</li>
+        </ul>
+        <p>However, we decided not to include some suggestions in this low-fidelity iteration:</p>
+        <ul>
+            <li>Our instructor's suggestion to enhance the visual design will be addressed in our high-fidelity prototype.</li>
+            <li>The peer feedback regarding adding color, fun elements, and pictures will also be incorporated in the high-fidelity prototype, where we can better explore visual design choices.</li>
+        </ul>
+        <p>By selectively implementing the most relevant and impactful changes in this second iteration, we have created an improved low-fidelity wireframe that better aligns with our client's goals and addresses key user experience concerns raised by our peers.</p>
+        <p>This iterative process has reinforced the importance of seeking and incorporating feedback from multiple stakeholders to refine and enhance our design solution. As we move forward to the high-fidelity prototyping stage, we will continue to keep the remaining suggestions in mind to create a visually engaging and user-friendly onboarding experience for Allara Health.</p>
+      </section>
 
-        <section id="visual-style-guide">
-            <h2>Visual Style Guide</h2>
-            <p>blablabla</p>
-        </section>
+      <section id="visual-style-guide">
+        <h2>Visual Style Guide</h2>
+        <div class="vsg">
+          <div class="single-image-container">
+            <img
+              src="./assets/VisualStyleGuide.png"
+              alt="picture of visual style guide"
+              style="height: 500px; width: 900px"
+            />
+          </div>
+          <p>
+            For the design of color, font and size, we chose and kept it
+            consistent with the original design to the greatest extent,
+            including all of the text sizes, the effect of mouse hover, the
+            color after being selected, and the original color of the button,
+            etc. For the customer review cards, we also added a three-dot icon
+            for the sliding window and made it the same color as the theme color
+            so that it can blend in with the page.
+          </p>
+          <p>
+            At the same time, we also made some changes to the original design.
+            For example, on the input box, we added a shadow to the selected and
+            hover input box. In this way, users who are not sensitive to color
+            can clearly see the input box they selected.
+          </p>
+          <p>
+            In the design of the icon, we implemented three blue buttons to
+            increase the interactivity of the page. Users can expand more
+            content by clicking buttons. By browsing this content, users can
+            have a clearer understanding of the product and decide whether this
+            program is suitable for them. In addition, we also added the checked
+            mark for the check box to ensure that color-blind people can also
+            see that they have checked this box by the presentation of the
+            checked mark, not only the color changing in this box. In the same
+            way, we have increased the percentage under the progress bar to
+            better serve the visually impaired.
+          </p>
+          <p>
+            Finally, for the card and drop-down box designs, we chose to keep
+            the default designs because the client wants us to keep it simple.
+            In addition, we believe that the color of the card is close to the
+            background color of the page, which may not be conducive to people
+            with visual impairments. Therefore, we recommend the client to
+            consider using other colors to design cards.
+          </p>
+        </div>
+      </section>
 
-        <section id="hi-fi">
-            <h2>Hi-fi Wireframe</h2>
-            <p>blablabla</p>
-        </section>
+      <section id="hi-fi">
+        <h2>Hi-fi Prototype</h2>
+        <p>
+          In order to create the
+          <a
+            href="https://www.figma.com/file/n8RuLRnTVZAYtC7EViOqKS/Allara-Wireframe?type=design&node-id=221%3A35&mode=design&t=bo6AhIDIktOV7UTx-1"
+            >hi-fidelity prototype</a
+          >, we applied the visual design style guide to the second low-fidelity
+          wireframe.
+        </p>
+      </section>
     </main>
 
-    <footer>
-        Copyright 2024
-    </footer>
-</body>
+    <footer>Copyright 2024</footer>
+  </body>
 </html>
-
 
 <!-- 
 
