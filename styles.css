@@ -92,7 +92,6 @@ th {
     justify-content: center; /* horizontal center */
     gap: 35px; /* gap between images */
 }
-
 .two-images-box img {
     width: 50%; /* 50% of each page */
     height: auto; 
@@ -112,6 +111,24 @@ th {
 .left-padding {
     padding-left: 55px; 
 }
-
-
+/* show mobile page */
+.two-mobile-images-container{
+    width: 65%; 
+    text-align: center;
+    margin: 30px auto; /* top and bottom 40px, horizontally centered */
+}
+.two-mobile-images-box{
+    display: flex; 
+    justify-content: center; /* horizontal center */
+    gap: 100px; /* gap between image containers */
+}
+.image-container {
+    text-align: center; /* center the text below each image */
+    width: 30%; /* adjust width accordingly if needed */
+}
+.image-container img {
+    width: 100%; /* make image use up all container width */
+    height: auto; 
+    border: 1px solid #000000;
+}
 
