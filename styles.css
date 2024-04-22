@@ -21,7 +21,9 @@ footer {
     background-color: #b9cabf;
     color: #fff;
     text-align: center;
-    position: fixed;
+
+    /* stick the footer to bottom */
+    position: fixed; 
     left: 0;
     bottom: 0;
     width: 100%;
@@ -29,6 +31,7 @@ footer {
 }
 
 p {
+    /* top and bottom margin */
     margin: 10px 0;
 }
 
@@ -46,14 +49,6 @@ a {
 a:hover {
     color: #003366;
     text-decoration: underline;
-}
-  
-img {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* table related */
@@ -75,20 +70,38 @@ th {
 
 
 /* self items */
-#image {
+.single-image-container {
     text-align: center;
+    margin-bottom: 40px;
 }
   
-#image img {
+.single-image-container img {
     display: block;
-    width: 80%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.two-images-container{
+    width: 80%; 
+    text-align: center;
+    margin: 0 auto 40px; /* top 0，horizontal center，bottom 50px */
+}
+.two-images-box{
+    display: flex; 
+    justify-content: center; /* horizontal center */
+    gap: 20px; /* gap between images */
+}
+
+.two-images-box img {
+    width: 50%; /* 50% of each page */
+    height: auto; 
 }
   
 .left-padding {
     padding-left: 55px; 
 }
-  
+
+
 
