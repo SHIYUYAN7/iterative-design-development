@@ -1,0 +1,106 @@
+/* global properties (be careful)*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px; /* Avoid content touching the bottom */
+}
+  
+header {
+    background-color: #b9cabf;
+    padding: 20px;
+    text-align: center;
+}
+  
+main {
+    padding: 20px;
+}
+  
+footer {
+    background-color: #b9cabf;
+    color: #fff;
+    text-align: center;
+
+    /* stick the footer to bottom */
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+p {
+    /* top and bottom margin */
+    margin: 10px 0;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* table related */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+th {
+    background-color: #f4f4f4;
+}
+
+
+/* self items */
+.single-image-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.single-image-container img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.two-images-container{
+    width: 80%; 
+    text-align: center;
+    margin: 0 auto 40px; /* top 0，horizontal center，bottom 50px */
+}
+.two-images-box{
+    display: flex; 
+    justify-content: center; /* horizontal center */
+    gap: 35px; /* gap between images */
+}
+
+.two-images-box img {
+    width: 50%; /* 50% of each page */
+    height: auto; 
+}
+  
+.left-padding {
+    padding-left: 55px; 
+}
+
+
+
