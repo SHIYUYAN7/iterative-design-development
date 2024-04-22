@@ -91,7 +91,7 @@ th {
 .two-images-box{
     display: flex; 
     justify-content: center; /* horizontal center */
-    gap: 20px; /* gap between images */
+    gap: 35px; /* gap between images */
 }
 
 .two-images-box img {
