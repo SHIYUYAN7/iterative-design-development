@@ -97,7 +97,18 @@ th {
     width: 50%; /* 50% of each page */
     height: auto; 
 }
-  
+
+.three-images-box{
+    display: flex;
+    justify-content:center;
+    gap: 35px;
+}
+
+.three-images-box img{
+    width: 30%;
+    height: auto;
+}
+
 .left-padding {
     padding-left: 55px; 
 }
