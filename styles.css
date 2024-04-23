@@ -8,7 +8,7 @@ body {
 }
   
 header {
-    background-color: #b9cabf;
+    background-color: #D4D9FF;
     padding: 20px;
     text-align: center;
 }
@@ -18,8 +18,8 @@ main {
 }
   
 footer {
-    background-color: #b9cabf;
-    color: #fff;
+    background-color: #D4D9FF;
+    color: #000000;
     text-align: center;
 
     /* stick the footer to bottom */
@@ -40,14 +40,13 @@ ul {
 }
 
 a {
-    color: #0066cc;
+    color: #5581F2;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
   
 a:hover {
-    color: #003366;
     text-decoration: underline;
 }
 
@@ -111,4 +110,5 @@ a:hover {
     height: auto; 
     border: 1px solid #000000;
 }
+
 
