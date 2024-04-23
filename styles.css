@@ -111,4 +111,24 @@ a:hover {
     border: 1px solid #000000;
 }
 
+.four-mobile-images-container{
+    width: 75%; 
+    text-align: center;
+    margin: 30px auto 0px; /* top and bottom 40px, horizontally centered */
+}
+.four-mobile-images-box{
+    display: flex; 
+    justify-content: center; /* horizontal center */
+    gap: 100px; /* gap between image containers */
+}
+.four-mobile-image-container {
+    text-align: center; /* center the text below each image */
+    width: 25%; /* adjust width accordingly if needed */
+}
+.four-mobile-image-container img {
+    width: 100%; /* make image use up all container width */
+    height: auto; 
+    border: 1px solid #000000;
+}
+
 
