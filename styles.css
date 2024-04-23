@@ -91,12 +91,12 @@ a:hover {
 }
 
 /* show mobile page */
-.two-mobile-images-container{
+.mobile-images-container{
     width: 65%; 
     text-align: center;
     margin: 30px auto; /* top and bottom 40px, horizontally centered */
 }
-.two-mobile-images-box{
+.mobile-images-box{
     display: flex; 
     justify-content: center; /* horizontal center */
     gap: 100px; /* gap between image containers */
